@@ -1,8 +1,12 @@
 {
   "name": "hushup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A node command tool to quickly assess and kill processes with open ports",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/David-Way/hush"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +20,11 @@
     "tool",
     "node"
   ],
-  "author": "david_way@live.ie",
+  "author": {
+    "name": "David Way",
+    "email" : "david_way@live.ie",
+    "url" : "https://github.com/David-Way"
+  },
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
