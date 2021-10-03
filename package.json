@@ -1,0 +1,25 @@
+{
+  "name": "hushup",
+  "version": "1.0.0",
+  "description": "A node command tool to quickly assess and kill processes with open ports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hush": "index.js"
+  },
+  "keywords": [
+    "cli",
+    "port",
+    "kill",
+    "tool",
+    "node"
+  ],
+  "author": "david_way@live.ie",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "easy-table": "^1.1.1"
+  }
+}
