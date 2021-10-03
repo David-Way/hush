@@ -99,12 +99,15 @@ function checkValidProcess(selectedFile) {
   return new Promise(function (resolve, reject) {
     getListOfOpenFiles().then((fileList, err) => {
       if (err) reject('Error:' + err);
-      fileList.forEach((file, i) => { /* Check against reference file list, files may have changed */
-        if (JSON.stringify(file) === JSON.stringify(selectedFile) && selectedFile[CONST.PROCESS_ID])
-          resolve();
-        else
-          reject();
-      });      
+
+      const result = fileList.filter(function (file) {
+        return JSON.stringify(file) === JSON.stringify(selectedFile)
+      });
+
+      if (result && result.length === 1) /* Once matching process found */
+        resolve();
+      else
+        reject();
     });
   });
 }

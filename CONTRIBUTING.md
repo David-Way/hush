@@ -15,6 +15,18 @@
   'p4105\n' +
   ...
 ```
+Converted to data structure
+```shell
+[
+  {
+    pid: 'p3882',
+    commandName: 'GitHub Desktop Helper',
+    fileDescriptor: '28',
+    fileName: '127.0.0.1:49375'
+  },
+  ...
+]
+```
 
 ### Testing
 Running a python http server is an easy way to start a process to test with:

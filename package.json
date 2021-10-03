@@ -1,6 +1,6 @@
 {
   "name": "hushup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A node command tool to quickly assess and kill processes with open ports",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
-    "easy-table": "git+https://github.com/eldargab/easy-table.git"
+    "easy-table": "^1.1.1"
   }
 }
