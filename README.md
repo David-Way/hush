@@ -9,7 +9,7 @@
 ## Install
 
 ```sh
-npm i hushup - g
+npm i -g hushup
 ```
 
 ## Use
