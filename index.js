@@ -25,7 +25,7 @@ const OUTPUT_IDENTIFIER = [
 const lsof = `lsof -nP -iTCP -F ${OUTPUT_IDENTIFIER} -sTCP:LISTEN`;
 const USER_PROMPT = [
   chalk.white('>'),
-  chalk.red.bold('Select a Index to kill,'),
+  chalk.red.bold('Select an Index to kill,'),
   chalk.red('"q" to quit: ')
 ].join(' ');
 
