@@ -28,5 +28,5 @@ Index  Command               PID    Name
 2      Sketch                27034  *:60769
 3      SketchMirrorHelper    27077  *:60770
 
-> Select a Index to kill, "q" to quit: 
+> Select an Index to kill, "q" to quit: 
 ```
