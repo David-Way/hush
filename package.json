@@ -1,6 +1,6 @@
 {
   "name": "hushup",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A node command tool to quickly assess and kill processes with open ports",
   "main": "index.js",
   "repository": {
