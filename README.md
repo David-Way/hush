@@ -6,20 +6,29 @@
 ![size](https://img.shields.io/github/issues-raw/David-Way/hush?style=flat)
 ![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/David-Way/hush?style=flat)
 
-## Install
+## Execute (without installing)
+
+```
+npx hushup
+```
+
+_or_
+
+
+## Install locally
 
 ```sh
 npm i -g hushup
 ```
 
-## Use
-Run the hush command to return an indexed table of currently open files with running processes.
+### Run locally
 
 ```sh
 $ hush
 ```
-### Result
 
+## Result
+View an indexed table of currently open files with running processes.
 ```
 Index  Command               PID    Name       
 -----  --------------------  -----  -----------
