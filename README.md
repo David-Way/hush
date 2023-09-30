@@ -4,7 +4,7 @@
 ![Version](https://img.shields.io/npm/v/hushup?style=flat)
 ![Code size](https://img.shields.io/github/languages/code-size/David-Way/hush?style=flat)
 ![size](https://img.shields.io/github/issues-raw/David-Way/hush?style=flat)
-![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/David-Way/hush?style=flat)
+[![Known Vulnerabilities](https://snyk.io/test/github/David-Way/hush/badge.svg)](https://snyk.io/test/github/David-way/hush)
 
 ## Execute (without installing)
 
